@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Alex Carry - UI/UX Designer</title> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> -->
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Sompot<span>Tobungkok</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#expertise">Expertise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="about-img">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Photo" class="img-fluid"/>
+                        <!-- <img src="{{ url_for('static', filename='images/preview.png') }}" alt="About Alex" class="img-fluid"> -->
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 about-content">
+                    <h2>Sompot Tobungkok</h2>
+                    <p>My name is Sompot Tobungkok, but you can call me Keng. I am 24 years old and hold a Bachelor’s degree in Computer Science 
+                        from Naresuan University. With 1 year of experience as a IT/full-stack developer, I have honed my skills in Python, JavaScript, TypeScript, C++, 
+                        and Apps Script.</p>
+                        <!-- <p>ผมชื่อ สมโภชน์ โตบึงกอก หรือเรียกผมว่า เก่ง ก็ได้ครับ ผมอายุ 24 ปี และจบการศึกษาระดับปริญญาตรี สาขาวิทยาการคอมพิวเตอร์ จากมหาวิทยาลัยนเรศวร ด้วยประสบการณ์การทำงาน 1 ปีในตำแหน่งนักพัฒนา IT/Full-Stack Developer ผมได้พัฒนาทักษะด้านการเขียนโปรแกรมในภาษา Python, JavaScript, TypeScript, C++, และ Apps Script</p> -->
+                    <!-- <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>UI Design</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>UX Research</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>Prototyping</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>Design Systems</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="mt-4">
+                        <a href="#contact" class="primary-btn">Contact Me</a>
+                        <a href="/download" class="secondary-btn">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+          <div class="text-center mb-5">
+              <h2 class="section-title">Education</h2>
+              <!-- <p class="section-subtitle">My academic background and qualifications</p> -->
+          </div>
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="timeline">
+                      <!-- Education Item 1 -->
+                      <div class="timeline-item">
+                          <div class="timeline-icon">
+                              <i class="fas fa-graduation-cap"></i>
+                          </div>
+                          <div class="timeline-content">
+                              <h3>Bachelor of Science in Computer Science</h3>
+                              <h4>Naresuan University</h4>
+                              <p class="timeline-date">2019 - 2023</p>
+                              <p>Completed a comprehensive computer science program with focus on programming, algorithms, data structures, and software development </p>
+                              <div class="timeline-courses">
+                                  <h5>Key Courses:</h5>
+                                  <ul>
+                                      <li>Data Structures and Algorithms</li>
+                                      <li>Web Development</li>
+                                      <li>Database Systems</li>
+                                      <li>Object-Oriented Programming</li>
+                                      <li>Image processing</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <!-- Education Item 2 - High School (example) -->
+                      <div class="timeline-item">
+                          <div class="timeline-icon">
+                              <i class="fas fa-school"></i>
+                          </div>
+                          <div class="timeline-content">
+                              <h3>High School in Science-Mathematics Program</h3>
+                              <h4>Prankratai pittayakom school</h4>
+                              <p class="timeline-date">2016 - 2019</p>
+                              <p>Completed my high school education in the science-mathematics program and gained foundational knowledge in programming. </p>
+                          </div>
+                      </div>
+                      
+                      <!-- Certificate/Additional Education -->
+                      <!-- <div class="timeline-item">
+                          <div class="timeline-icon">
+                              <i class="fas fa-certificate"></i>
+                          </div>
+                          <div class="timeline-content">
+                              <h3>Technical Certifications</h3>
+                              <p class="timeline-date">2022 - Present</p>
+                              <div class="certificate-items">
+                                  <div class="certificate-item">
+                                      <h4>Full Stack Web Development</h4>
+                                      <p>Udemy - Completed 2023</p>
+                                  </div>
+                                  <div class="certificate-item">
+                                      <h4>Python for Data Science</h4>
+                                      <p>Coursera - Completed 2022</p>
+                                  </div>
+                                  <div class="certificate-item">
+                                      <h4>JavaScript & TypeScript Masterclass</h4>
+                                      <p>freeCodeCamp - Completed 2023</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> -->
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Experience</h2>
+                <!-- <p class="section-subtitle">Specialized design services to elevate your digital products and brands</p> -->
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">         
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3>Graduation project</h3>
+                        <ul class="portfolio-tags">
+                            <li>
+                                Soil Mineral Value (NPK) Analysis <br>
+                              <span class="portfolio-tag">image processing</span>
+                              <!-- <span class="portfolio-tag">HTML CSS Bootstrap</span> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">         
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-house-laptop"></i>
+                        </div>
+                        <h3>Internship</h3>
+                        <ul class="portfolio-tags">
+                            <li>
+                                E-learning System <br>
+                              <span class="portfolio-tag">Django</span>
+                              <span class="portfolio-tag">HTML CSS Bootstrap</span>
+                            </li>
+                            <li>
+                              Smoking Temperature Control Report <br>
+                              <span class="portfolio-tag">Flask</span>
+                              <span class="portfolio-tag">React.js</span>
+                            </li>
+                            <li>
+                                User Support Trainer <br>
+                              <!-- <span class="portfolio-tag">Flask</span>
+                              <span class="portfolio-tag">HTML</span>
+                              <span class="portfolio-tag">CSS</span> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">         
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <h3>Work experience</h3>
+                        <ul class="portfolio-tags">
+                            <li>
+                              Automatic Composting System <br>
+                              <span class="portfolio-tag">Arduino</span>
+                              <span class="portfolio-tag">Apps Script</span>
+                            </li>
+                            <li>
+                              Smoking Temperature Control Report <br>
+                              <span class="portfolio-tag">Flask</span>
+                              <span class="portfolio-tag">React.js</span>
+                            </li>
+                            <li>
+                              EUDR system <br>
+                              <span class="portfolio-tag">Flask</span>
+                              <span class="portfolio-tag">HTML</span>
+                              <span class="portfolio-tag">CSS</span>
+                            </li>
+                            <li>
+                              Rubber Weighing System <br>
+                              <span class="portfolio-tag">Python</span>
+                              <span class="portfolio-tag">Node-RED</span>
+                            </li>
+                            <li>
+                              Elderly detection system with a watch <br>
+                              <span class="portfolio-tag">Hardware Tester</span>
+                            </li>
+                            <li>
+                                Line messaging api notify <br>
+                                <span class="portfolio-tag">Line messaging api</span>
+                                <span class="portfolio-tag">Node-red</span>
+                              </li>
+                          </ul>
+                          
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Web Design</h3>
+                        <p>Crafting responsive websites that provide seamless experiences across all devices while achieving business objectives.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <h3>Information Architecture</h3>
+                        <p>Organizing and structuring content in a way that makes it easy for users to find what they need efficiently.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Brand Identity</h3>
+                        <p>Developing cohesive visual languages and design systems that communicate your brand values consistently.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">Browse through my latest projects and design work</p>
+            </div>
+            <div class="portfolio-filter">
+                <div class="filter-item active" data-filter="all">All</div>
+                <div class="filter-item" data-filter="web">Web Design</div>
+                <div class="filter-item" data-filter="iot">IoT</div>
+                <div class="filter-item" data-filter="branding">Branding</div>
+            </div>
+            <div class="row" id="portfolio-items-container">
+                <!-- Portfolio items will be displayed here -->
+                <!-- First page items are loaded by default -->
+            </div>
+            
+            <!-- Pagination -->
+            <div class="portfolio-pagination text-center mt-4">
+                <nav aria-label="Portfolio pagination">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled" id="prev-page">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#" data-page="1">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#" data-page="2">2</a></li>
+                        <li class="page-item" id="next-page">
+                            <a class="page-link" href="#">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Modal with Bootstrap Carousel -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <div id="carouselImages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousel-inner">
+              <!-- รูปภาพจะถูกเพิ่มโดย JavaScript -->
+            </div>
+                    <!-- Prev -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselImages" data-bs-slide="prev">
+            <span class="carousel-custom-icon">
+            <i class="fas fa-chevron-left"></i>
+            </span>
+        </button>
+        
+        <!-- Next -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselImages" data-bs-slide="next">
+            <span class="carousel-custom-icon">
+            <i class="fas fa-chevron-right"></i>
+            </span>
+        </button>
+  
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+          </div>          
+      </div>
+    </div>
+  </div>
+  
+
+    <section id="expertise">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="expertise-title">Expertise</h2>
+                <!-- <p class="section-subtitle">Specialized design services to elevate your digital products and brands</p> -->
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">         
+                <!-- <div class="col-lg-4 col-md-6"> -->
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Programming language</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>C++</li>
+                            <li>Apps Script</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">   
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3>Server Operating System</h3>
+                        <ul>
+                            <li>Ubuntu server</li>
+                            <li>Windows server</li>
+                        </ul>
+                    </div>
+                </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">   
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3>Framework</h3>
+                        <ul>
+                            <li>Flask</li>
+                            <li>Django</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">   
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3>data base</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">   
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <h3>data base</h3>
+                        <ul>
+                            <li>Visual Studio Code</li>
+                            <li>Node-red</li>
+                            <li>Pm2</li>
+                            <li>Nginx</li>
+                            <li>MySql workbernch</li>
+                            <li>Arduino</li>
+                            <li>GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Let's discuss your project and create something amazing together</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>sompott.keng@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>065-571-2138</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-line"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Line</h4>
+                            <p>ID : kengsompot</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 mb-4">
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <form class="contact-form">
+                        <p>56/1, Moo 5, Ban Khui Khaewan, Khui Ban Ong Subdistrict, Phran Kratai District, Kamphaeng Phet Province, Thailand</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">-<span>-</span></div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2025  Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script type="module" src="{{ url_for('static', filename='js/data.js') }}"></script>
+    <script>
+        
+
+
+    </script>
+</body>
+</html>
