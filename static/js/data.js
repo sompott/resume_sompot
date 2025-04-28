@@ -36,24 +36,24 @@ document.addEventListener('DOMContentLoaded', function() {
             ],
             title: "Rubber Weighing System",
             description: "A system for recording daily rubber block weights and generating summary reports for TTN RUBBER COMPANY LIMITED",
-            tags: ["UI Design", "Mobile", "Fintech"],
+            tags: ["Node-red", "Python",],
             customClass: "custom-image"
         },
         {
             category: 'web',
             imageSrc: "static/images/eudr.jpeg",
             images: [
-                "static/images/notify.png",
-                "static/images/ttn.jpeg",
-                "static/images/gr.jpeg"
+                // "static/images/notify.png",
+                // "static/images/ttn.jpeg",
+                // "static/images/gr.jpeg"
             ],
             title: "EUDR system",
             description: "A system designed to record rubber plantation farmers' data and generate PDF files for TTN RUBBER COMPANY LIMITED",
-            tags: ["UI Design", "Mobile", "Fintech"],
+            tags: ["Flask", "HTML CSS Bootstrap"],
             customClass: "custom-image_eudr"
         },
         {
-            category: 'branding',
+            category: 'others',
             imageSrc: "static/images/notify.png",
             images: [
                 "static/images/notify5.jpg",
@@ -66,10 +66,10 @@ document.addEventListener('DOMContentLoaded', function() {
             customClass: "custom-image1"
         },
         {
-            category: 'branding',
+            category: 'others',
             imageSrc: "static/images/watch5.jpg",
             images: [
-                "static/images/watch6.jpg",
+                "static/images/watch5.jpg",
                 "static/images/watch1.jpg",
                 "static/images/watch8.jpg"
             ],
@@ -80,14 +80,14 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Page 2 items - Add your new projects here
         {
-            category: 'web',
+            category: 'others',
             imageSrc: "static/images/npk.jpeg",
             images: [
                 "static/images/npk1.jpeg",
             ],
-            title: "Soil Mineral Value (NPK) Analysis by image processing",
+            title: "Soil Mineral Value (NPK) Analysis",
             description: "Interactive learning management system built with Django and Bootstrap.",
-            tags: ["Django", "Bootstrap", "Education"],
+            tags: ["image processing"],
             customClass: "custom-image_eudr"
         },
         {
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ],
             title: "Automatic Composting System",
             description: "IoT solution for monitoring and managing composting processes.",
-            tags: ["Arduino", "Apps Script", "IoT"],
+            tags: ["Arduino", "Apps Script"],
             customClass: "custom-image"
         },
         // Add more items as needed

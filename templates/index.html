@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Alex Carry - UI/UX Designer</title> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
@@ -25,7 +24,7 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Education</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Experience</a>
@@ -50,8 +49,8 @@
             <div class="row">
                 <div class="col-lg-5 col-md-12">
                     <div class="about-img">
-                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Photo" class="img-fluid"/>
-                        <!-- <img src="{{ url_for('static', filename='images/preview.png') }}" alt="About Alex" class="img-fluid"> -->
+                        <!-- <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Photo" class="img-fluid"/> -->
+                        <img src="{{ url_for('static', filename='images/profile1.png') }}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 about-content">
@@ -64,7 +63,7 @@
                         <div class="col-md-6">
                             <div class="skill-item">
                                 <div class="skill-name">
-                                    <span>UI Design</span>
+                                    <span>Python</span>
                                     <span>95%</span>
                                 </div>
                                 <div class="skill-bar">
@@ -75,7 +74,7 @@
                         <div class="col-md-6">
                             <div class="skill-item">
                                 <div class="skill-name">
-                                    <span>UX Research</span>
+                                    <span>JavaScript</span>
                                     <span>90%</span>
                                 </div>
                                 <div class="skill-bar">
@@ -86,7 +85,7 @@
                         <div class="col-md-6">
                             <div class="skill-item">
                                 <div class="skill-name">
-                                    <span>Prototyping</span>
+                                    <span> C++</span>
                                     <span>92%</span>
                                 </div>
                                 <div class="skill-bar">
@@ -97,7 +96,7 @@
                         <div class="col-md-6">
                             <div class="skill-item">
                                 <div class="skill-name">
-                                    <span>Design Systems</span>
+                                    <span>PHP</span>
                                     <span>88%</span>
                                 </div>
                                 <div class="skill-bar">
@@ -115,8 +114,8 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Education Section -->
+    <section id="education">
       <div class="container">
           <div class="text-center mb-5">
               <h2 class="section-title">Education</h2>
@@ -262,8 +261,7 @@
                             <li>
                               EUDR system <br>
                               <span class="portfolio-tag">Flask</span>
-                              <span class="portfolio-tag">HTML</span>
-                              <span class="portfolio-tag">CSS</span>
+                              <span class="portfolio-tag">HTML CSS Bootstrap</span>
                             </li>
                             <li>
                               Rubber Weighing System <br>
@@ -319,13 +317,13 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title">Portfolio</h2>
-                <p class="section-subtitle">Browse through my latest projects and design work</p>
+                <!-- <p class="section-subtitle">Browse through my latest projects and design work</p> -->
             </div>
             <div class="portfolio-filter">
                 <div class="filter-item active" data-filter="all">All</div>
-                <div class="filter-item" data-filter="web">Web Design</div>
+                <div class="filter-item" data-filter="web">Web Application</div>
                 <div class="filter-item" data-filter="iot">IoT</div>
-                <div class="filter-item" data-filter="branding">Branding</div>
+                <div class="filter-item" data-filter="others">Others</div>
             </div>
             <div class="row" id="portfolio-items-container">
                 <!-- Portfolio items will be displayed here -->
@@ -408,6 +406,7 @@
                             <li>TypeScript</li>
                             <li>C++</li>
                             <li>Apps Script</li>
+                            <li>PHP</li>
                         </ul>
                     </div>
                 </div>
@@ -435,6 +434,8 @@
                             <li>Flask</li>
                             <li>Django</li>
                             <li>React</li>
+                            <li>Vue.js</li>
+                            <li>Codeigniter</li>
                         </ul>
                     </div>
                 </div>
@@ -466,6 +467,7 @@
                             <li>MySql workbernch</li>
                             <li>Arduino</li>
                             <li>GitHub</li>
+                            <li>Figma</li>
                         </ul>
                     </div>
                 </div>
@@ -479,14 +481,17 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title">Contact</h2>
-                <p class="section-subtitle">Let's discuss your project and create something amazing together</p>
+                <!-- <p class="section-subtitle">Let's discuss your project and create something amazing together</p> -->
             </div>
             <div class="row">
                 <div class="col-lg-5">
                     <div class="contact-info-item">
                         <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:sompott.keng@gmail.com">
+                                <i class="fas fa-envelope"></i>
+                            </a>
                         </div>
+                        
                         <div class="contact-text">
                             <h4>Email</h4>
                             <p>sompott.keng@gmail.com</p>
@@ -494,8 +499,11 @@
                     </div>
                     <div class="contact-info-item">
                         <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
+                            <a href="tel:0655712138">
+                                <i class="fas fa-phone"></i>
+                            </a>
                         </div>
+                        
                         <div class="contact-text">
                             <h4>Phone</h4>
                             <p>065-571-2138</p>
@@ -503,14 +511,16 @@
                     </div>
                     <div class="contact-info-item">
                         <div class="contact-icon">
-                            <i class="fa-brands fa-line"></i>
-                        </div>
+                            <a href="https://line.me/ti/p/W_Fmc68UxH" target="_blank">
+                                <i class="fa-brands fa-line"></i>
+                            </a>
+                        </div>                        
                         <div class="contact-text">
                             <h4>Line</h4>
                             <p>ID : kengsompot</p>
                         </div>
                     </div>
-                    <div class="mt-4 mb-4">
+                    <!-- <div class="mt-4 mb-4">
                         <div class="footer-social">
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -518,7 +528,7 @@
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a href="#"><i class="fab fa-dribbble"></i></a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-7">
                     <form class="contact-form">
@@ -533,16 +543,16 @@
     <footer>
         <div class="container">
             <div class="footer-logo">-<span>-</span></div>
-            <div class="footer-social">
+            <!-- <div class="footer-social">
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-dribbble"></i></a>
-            </div>
+            </div> -->
             <div class="copyright">
-                &copy; 2025  Reserved.
-            </div>
+                &copy;  All rights reserved. | Resume
+              </div>
         </div>
     </footer>
 

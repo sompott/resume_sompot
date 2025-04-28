@@ -223,7 +223,7 @@ section {
 /* สำหรับหน้าจอขนาดใหญ่ เช่น เดสก์ท็อป */
 @media (min-width: 1025px) {
     .about-img {
-        width: 450px;
+        width: 350px;
         height: auto;
     }
 }
@@ -526,7 +526,15 @@ section {
     font-size: 20px;
     margin-right: 15px;
 }
+.contact-icon i {
+    color: #e69a00; /* เปลี่ยนสีไอคอนเป็นสีเหลือง */
+    font-size: 24px; /* ขนาดไอคอน */
+    transition: color 0.3s ease; /* การเปลี่ยนสีแบบเนียน ๆ */
+}
 
+.contact-icon a:hover i {
+    color: gold; /* สีเมื่อมีการ hover (เอาเมาส์ไปชี้) */
+}
 .contact-text h4 {
     font-size: 18px;
     font-weight: 600;
