@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'web',
             imageSrc: "static/images/gr.jpeg",
             images: [
-                "static/images/notify.png",
-                "static/images/ttn.jpeg",
-                "static/images/gr.jpeg"
+                "static/images/gr11.jpeg",
+                "static/images/groven1.jpeg",
+                "static/images/groven.jpeg "
             ],
             title: "Smoking Temperature Control Report",
             description: "Temperature Report for Analyzing the Optimal Conditions of the Rubber Drying Oven for GRAND RUBBER COMPANY LIMITED.",
@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             category: 'web',
-            imageSrc: "static/images/ttn_logo.jpg",
+            imageSrc: "static/images/ttn.jpeg",
             images: [
-                "static/images/notify.png",
-                "static/images/ttn.jpeg",
-                "static/images/gr.jpeg"
+                "static/images/ttn11.jpeg",
+                "static/images/oven_ttn1.jpeg",
+                "static/images/oven_ttn.jpeg"
             ],
             title: "Smoking Temperature Control Report",
             description: "Temperature Report for Analyzing the Optimal Conditions of the Rubber Drying Oven for TTN RUBBER COMPANY LIMITED",
@@ -31,9 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'iot',
             imageSrc: "static/images/2.jpg",
             images: [
-                "static/images/notify.png",
-                "static/images/ttn.jpeg",
-                "static/images/gr.jpeg"
+                "static/images/weight.PNG",
+                "static/images/weight1.PNG",
             ],
             title: "Rubber Weighing System",
             description: "A system for recording daily rubber block weights and generating summary reports for TTN RUBBER COMPANY LIMITED",
@@ -57,9 +56,9 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'branding',
             imageSrc: "static/images/notify.png",
             images: [
-                "static/images/notify.png",
-                "static/images/ttn.jpeg",
-                "static/images/gr.jpeg"
+                "static/images/notify5.jpg",
+                "static/images/notify2.jpg",
+                "static/images/notify4.jpg"
             ],
             title: "Line messaging api notify",
             description: "Line API notification system for temperature and humidity alerts for SIN TONG THAI RUBBER COMPANY LIMITED.",
@@ -70,9 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'branding',
             imageSrc: "static/images/watch5.jpg",
             images: [
+                "static/images/watch6.jpg",
                 "static/images/watch1.jpg",
-                "static/images/ttn.jpeg",
-                "static/images/gr.jpeg"
+                "static/images/watch8.jpg"
             ],
             title: "Elderly detection system with a watch",
             description: "Complete brand identity development for an innovative tech startup.",
@@ -82,11 +81,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Page 2 items - Add your new projects here
         {
             category: 'web',
-            imageSrc: "static/images/eudr.jpeg",
+            imageSrc: "static/images/npk.jpeg",
             images: [
-                "static/images/notify.png",
-                "static/images/ttn.jpeg",
-                "static/images/gr.jpeg"
+                "static/images/npk1.jpeg",
             ],
             title: "Soil Mineral Value (NPK) Analysis by image processing",
             description: "Interactive learning management system built with Django and Bootstrap.",
@@ -98,8 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imageSrc:  "static/images/iot1.jpg",
             images: [
                 "static/images/iot2.jpg",
-                "static/images/iot3.jpg",
-                "static/images/iot4.jpg"
+                "static/images/iot11.jpg",
             ],
             title: "Automatic Composting System",
             description: "IoT solution for monitoring and managing composting processes.",

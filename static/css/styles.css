@@ -978,9 +978,9 @@ footer {
     background-color: #e69a00;  /* สีเข้มขึ้นเมื่อ hover */
   }
   .carousel-inner img {
-    width: 100%;
+    width: auto;
     height: auto; /* ปรับให้เหมาะสมกับหน้าจอทุกขนาด */
-    max-height: 400px; /* ป้องกันไม่ให้รูปใหญ่เกินไป */
+    max-height: 600px; /* ป้องกันไม่ให้รูปใหญ่เกินไป */
     object-fit: cover;
     border-radius: 10px;
   }
