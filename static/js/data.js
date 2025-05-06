@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const portfolioItems = [
         // Page 1 items
         {
-            category: 'web',
+            category: 'experience',
             imageSrc: "static/images/gr.jpeg",
             images: [
                 "static/images/gr11.jpeg",
@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 "static/images/groven.jpeg "
             ],
             title: "Smoking Temperature Control Report",
-            description: "Temperature Report for Analyzing the Optimal Conditions of the Rubber Drying Oven for GRAND RUBBER COMPANY LIMITED.",
+            description: "Temperature Report for Analyzing the Optimal Conditions of the Rubber Drying Oven",
             tags: ["Flask", "React", "Node-red"]
         },
         {
-            category: 'web',
+            category: 'experience',
             imageSrc: "static/images/ttn.jpeg",
             images: [
                 "static/images/ttn11.jpeg",
@@ -24,36 +24,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 "static/images/oven_ttn.jpeg"
             ],
             title: "Smoking Temperature Control Report",
-            description: "Temperature Report for Analyzing the Optimal Conditions of the Rubber Drying Oven for TTN RUBBER COMPANY LIMITED",
+            description: "Temperature Report for Analyzing the Optimal Conditions of the Rubber Drying Oven",
             tags: ["Flask", "React", "Node-red"]
         },
         {
-            category: 'iot',
-            imageSrc: "static/images/2.jpg",
-            images: [
-                "static/images/weight.PNG",
-                "static/images/weight1.PNG",
-            ],
-            title: "Rubber Weighing System",
-            description: "A system for recording daily rubber block weights and generating summary reports for TTN RUBBER COMPANY LIMITED",
-            tags: ["Node-red", "Python",],
-            customClass: "custom-image"
-        },
-        {
-            category: 'web',
+            category: 'experience',
             imageSrc: "static/images/eudr.jpeg",
             images: [
-                // "static/images/notify.png",
-                // "static/images/ttn.jpeg",
-                // "static/images/gr.jpeg"
+                 "static/images/eudr.jpeg"
             ],
             title: "EUDR system",
-            description: "A system designed to record rubber plantation farmers' data and generate PDF files for TTN RUBBER COMPANY LIMITED",
+            description: "A system designed to record rubber plantation farmers' data and generate PDF files ",
             tags: ["Flask", "HTML CSS Bootstrap"],
             customClass: "custom-image_eudr"
         },
         {
-            category: 'others',
+            category: 'experience',
             imageSrc: "static/images/notify.png",
             images: [
                 "static/images/notify5.jpg",
@@ -61,12 +47,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 "static/images/notify4.jpg"
             ],
             title: "Line messaging api notify",
-            description: "Line API notification system for temperature and humidity alerts for SIN TONG THAI RUBBER COMPANY LIMITED.",
+            description: "Line API notification system for temperature and humidity alerts ",
             tags: ["Line messaging api", "Node-red"],
             customClass: "custom-image1"
         },
         {
-            category: 'others',
+            category: 'experience',
             imageSrc: "static/images/watch5.jpg",
             images: [
                 "static/images/watch5.jpg",
@@ -77,16 +63,27 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Complete brand identity development for an innovative tech startup.",
             tags: ["Hardware Tester"]
         },
-        
+        {
+            category: 'experience',
+            imageSrc: "static/images/2.jpg",
+            images: [
+                "static/images/weight.PNG",
+                "static/images/weight1.PNG",
+            ],
+            title: "Rubber Weighing System",
+            description: "A system for recording daily rubber block weights and generating summary reports",
+            tags: ["Node-red", "Python",],
+            customClass: "custom-image"
+        },
         // Page 2 items - Add your new projects here
         {
-            category: 'others',
+            category: 'graduation',
             imageSrc: "static/images/npk.jpeg",
             images: [
                 "static/images/npk1.jpeg",
             ],
             title: "Soil Mineral Value (NPK) Analysis",
-            description: "Interactive learning management system built with Django and Bootstrap.",
+            description: "Research study on npk measurement using image processing",
             tags: ["image processing"],
             customClass: "custom-image_eudr"
         },
@@ -100,6 +97,29 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Automatic Composting System",
             description: "IoT solution for monitoring and managing composting processes.",
             tags: ["Arduino", "Apps Script"],
+            customClass: "custom-image"
+        },
+        {
+            category: 'intern',
+            imageSrc: "static/images/elerning.jpeg",
+            images: [
+                "static/images/elerning.jpeg",
+            ],
+            title: "E-learning System",
+            description: "A system for studying the use of online applications with e-learning systems",
+            tags: ["Django", "HTML CSS Bootstrap"],
+            customClass: "custom-image_eudr"
+        },
+        {
+            category: 'intern',
+            imageSrc:  "static/images/ebook.jpeg",
+            images: [
+                "static/images/ebook1.jpeg",
+                "static/images/ebook2.PNG",
+            ],
+            title: "E-book",
+            description: "A system for reading books online using an e-book system",
+            tags: ["Django", "HTML CSS Bootstrap"],
             customClass: "custom-image"
         },
         // Add more items as needed
